@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width:1000px;
+	margin: 0 auto;
+
+}
+.header img{
+	width: 950px;
+	margin-bottom: 10px;
+}
+.menu{
+
+	
+	height: 250px;
+	width: 190px;
+	padding: 20px 15px 20px 15px;
+	float: left;
+}
+.menu_h1{
+	font-size: 27px;
+	padding: 10px 0px 10px 0px;
+}
+/*.string{
+	border:2px dashed black;
+}*/
+
+ul li{
+	
+	padding: 0px 0px 10px 0px;
+}
+ul li a{
+	text-decoration:none;
+	color:brown;
+	font-size: 20px;
+	padding: 20px 0px 10px 0px;
+	float: left;
+
+	
+}
+ul li a:hover{
+	color:white;
+	background: brown;
+	display: block;
+	height: 20px;
+}
+.raise{
+	display: block;
+}
+.foodbox{
+	width: 700px;
+	height: 650px;
+	
+	float: left;
+	padding: 10px;
+}
+.food1{
+	box-shadow:4px 4px 12px 4px rgba(20%,20%,40%,0.5);
+	width:220px;
+	height: 300px;
+	float: left;
+	margin: 0px 2px 20px 8px;
+	
+}
+.foodh1{
+	padding: 10px;
+	text-align: center;
+	font-size: 27px;
+}
+.food1 img{
+	width: 220px;
+}
+.price{
+	margin-top: 20px;
+	text-align: center;
+}
+.basket{
+	background: gray;
+	width: 150px;
+	text-align: center;
+	margin: 20px 0px 0px 25px;
+	padding: 10px;
+}
+.basket:hover{
+	color:white;
+	background: green;
+}
+.heart{
+	left: 10px;
+	bottom: 250px;
+	position: relative;
+	color: white;
+}
